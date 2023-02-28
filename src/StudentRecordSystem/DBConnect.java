@@ -27,7 +27,7 @@ public class DBConnect
        try
        {
         Class.forName("org.sqlite.JDBC");
-        Connection Conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Micoboh\\Documents\\NetBeansProjects\\StudentRecord\\src\\StudentRecordSystem\\StudentRecordSystemDB.sqlite");
+        Connection Conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\barne\\OneDrive\\Documents\\NetBeansProjects\\StudentRecord\\src\\StudentRecordSystem\\StudentRecordSystemDB.sqlite");
         JOptionPane.showMessageDialog(null,"Connection To Database Established");
         return Conn;
         
